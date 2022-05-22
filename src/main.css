@@ -1,0 +1,24 @@
+.history-scroll {
+  width: 375px;
+  height: 680px;
+  border: 1px solid red;
+  overflow: scroll;
+}
+.history-day {
+  padding: 20px;
+}
+.day-use__wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ul {
+  padding: 0;
+}
+li.history__list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #858585;
+}
